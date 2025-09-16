@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+.env
+
+# Data (large/raw)
+data/raw/
+data/interim/
+data/external/
+
+# Allow small processed artifacts
+!data/processed/.gitkeep
+
+# Editors / OS
+.vscode/
+.DS_Store
+Thumbs.db
