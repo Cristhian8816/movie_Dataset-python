@@ -11,3 +11,5 @@ PROCESSED_DIR = DATA_DIR / "processed"
 # Ensure folders exist when module is imported
 RAW_DIR.mkdir(parents=True, exist_ok=True)
 PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+SAVE_ARTIFACTS = False  
+
